@@ -1,0 +1,6 @@
+# please make sure you have installed the following and torch.cuda.is_available() is True so that GPUs can be used
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
+# to download huggingface model, tokenizer, config into local directory:
+mkdir roberta-base-local
+python get_model.py roberta-base

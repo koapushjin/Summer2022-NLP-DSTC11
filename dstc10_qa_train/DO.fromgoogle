@@ -1,0 +1,3 @@
+# Module is located in : ls -lrt /gpfsnyu/packages/
+module load rclone/1.53
+rclone copy remote1:Research/utt_mlm_dataset.py .
